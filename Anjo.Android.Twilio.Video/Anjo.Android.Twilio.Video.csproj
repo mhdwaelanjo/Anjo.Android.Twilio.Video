@@ -7,17 +7,17 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Twilio.Video</PackageId>
-		<PackageVersion>7.6.3</PackageVersion>
-		<AssemblyVersion>7.6.3</AssemblyVersion>
-		<FileVersion>7.6.3</FileVersion>
-		<Version>7.6.3</Version>
+		<PackageVersion>7.6.4</PackageVersion>
+		<AssemblyVersion>7.6.4</AssemblyVersion>
+		<FileVersion>7.6.4</FileVersion>
+		<Version>7.6.4</Version>
 		<Title>Anjo Android Twilio Video SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Twilio.Video</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Twilio Video SDK</Description>
-		<PackageReleaseNotes>Twilio Video SDK v7.6.3</PackageReleaseNotes>
+		<PackageReleaseNotes>Twilio Video SDK v7.6.4</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2023 Wael Anjo</Copyright>
 		<PackageTags>Xamarin.Android, Twilio, Voice_Call, Video_Call</PackageTags>
 		<Summary>Twilio Video is a programmable real-time communications platform that allows you to add video chat functionality to your Android application. The platform provides APIs, SDKs, and helper tools to capture, distribute, record, and render high quality audio and video applications</Summary>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\video-android-7.6.3.aar" />
+	  <None Remove="Jars\video-android-7.6.4.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">
@@ -46,8 +46,8 @@
 		</None>
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="Xamarin.AndroidX.Annotation" Version="1.6.0" />
-	  <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.8.20" />
+	  <PackageReference Include="Xamarin.AndroidX.Annotation" Version="1.7.0.1" />
+	  <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.9.10.1" />
 	  <PackageReference Include="Xamarin.ReLinker" Version="1.4.4" />
 	</ItemGroup>
 </Project>
