@@ -11,6 +11,7 @@
 	<attr path="/api/package[@name='tvi.webrtc']/class[@name='StatsReport.Value']" name="managedName">StatsReportValue</attr>
 
 	<!--<remove-node path="/api/package[@name='tvi.webrtc']/interface[@name='VideoCapturer']/method[@name='changeCaptureFormat' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='int'] and parameter[3][@type='int']]" />-->
+	<!--<remove-node path="/api/package[@name='tvi.webrtc']/interface[@name='VideoCapturer']/method[@name='changeCaptureFormat' and count(parameter)=3 and parameter[1][@type='int'] and parameter[2][@type='int'] and parameter[3][@type='int']]" />-->
 
 	<attr path="/api/package[@name='com.twilio.video']/interface[@name='RemoteDataTrack.Listener']/method[@name='onMessage' and count(parameter)=2 and parameter[1][@type='com.twilio.video.RemoteDataTrack'] and parameter[2][@type='java.lang.String']]" name="argsType">Message1EventArgs</attr>
 	<attr path="/api/package[@name='com.twilio.video']/interface[@name='RemoteDataTrack.Listener']/method[@name='onMessage' and count(parameter)=2 and parameter[1][@type='com.twilio.video.RemoteDataTrack'] and parameter[2][@type='java.nio.ByteBuffer']]" name="argsType">Message2EventArgs</attr>
