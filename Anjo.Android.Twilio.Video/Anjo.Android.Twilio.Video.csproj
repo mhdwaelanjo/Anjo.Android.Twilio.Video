@@ -7,19 +7,19 @@
 	</PropertyGroup>
 	<PropertyGroup>
 		<PackageId>Anjo.Android.Twilio.Video</PackageId>
-		<PackageVersion>7.7.0</PackageVersion>
-		<AssemblyVersion>7.7.0</AssemblyVersion>
-		<FileVersion>7.7.0</FileVersion>
-		<Version>7.7.0</Version>
+		<PackageVersion>7.7.1</PackageVersion>
+		<AssemblyVersion>7.7.1</AssemblyVersion>
+		<FileVersion>7.7.1</FileVersion>
+		<Version>7.7.1</Version>
 		<Title>Anjo Android Twilio Video SDK</Title>
 		<Authors>Wael Anjo</Authors>
 		<Owners>Wael Anjo</Owners>
 		<PackageProjectUrl>https://github.com/mhdwaelanjo/Anjo.Android.Twilio.Video</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
 		<Description>.NET for Android (formerly Xamarin.Android) Binding Library - Twilio Video SDK</Description>
-		<PackageReleaseNotes>Twilio Video SDK v7.7.0</PackageReleaseNotes>
+		<PackageReleaseNotes>Twilio Video SDK v7.7.1</PackageReleaseNotes>
 		<Copyright>Copyright (c) 2024 Wael Anjo</Copyright>
-		<PackageTags>Xamarin.Android, Twilio, Voice_Call, Video_Call, Call</PackageTags>
+		<PackageTags>Xamarin.Android, NET MAUI, Twilio, Voice_Call, Video_Call, Call</PackageTags>
 		<Summary>Twilio Video is a programmable real-time communications platform that allows you to add video chat functionality to your Android application. The platform provides APIs, SDKs, and helper tools to capture, distribute, record, and render high quality audio and video applications</Summary>
 		<!-- Include symbol files (*.pdb) in the built .nupkg -->
 		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
@@ -29,7 +29,7 @@
 		<PackageIcon>icon.png</PackageIcon>
 	</PropertyGroup>
 	<ItemGroup>
-	  <None Remove="Jars\video-android-7.7.0.aar" />
+	  <None Remove="Jars\video-android-7.7.1.aar" />
 	</ItemGroup>
 	<ItemGroup>
 		<None Include="..\icon.png">
@@ -46,8 +46,8 @@
 		</None>
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="Xamarin.AndroidX.Annotation" Version="1.7.1.1" />
-	  <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.9.22.1" />
+	  <PackageReference Include="Xamarin.AndroidX.Annotation" Version="1.7.1.3" />
+	  <PackageReference Include="Xamarin.Kotlin.StdLib.Jdk7" Version="1.9.23.2" />
 	  <PackageReference Include="Xamarin.ReLinker" Version="1.4.4" />
 	</ItemGroup>
 </Project>

@@ -4,7 +4,7 @@
 Twilio Video SDK for .NET Android (formerly Xamarin.Android) bindings for AndroidX library - Wael Anjo
 ---------------------------------
 
-[![NuGet](https://buildstats.info/nuget/Anjo.Android.Twilio.Video)](https://www.nuget.org/packages/Anjo.Android.Twilio.Video/)
+[![NuGet Version](https://img.shields.io/nuget/v/Anjo.Android.Twilio.Video)](https://www.nuget.org/packages/Anjo.Android.Twilio.Video) [![GitHub License](https://img.shields.io/github/license/mhdwaelanjo/Anjo.Android.Braintree)](https://github.com/mhdwaelanjo/Anjo.Android.Twilio.Video/blob/master/LICENSE.txt)
 
 Twilio Video is a programmable real-time communications platform that allows you to add video chat functionality to your Android application. The platform provides APIs, SDKs, and helper tools to capture, distribute, record, and render high quality audio and video applications
 https://www.twilio.com/docs/video
