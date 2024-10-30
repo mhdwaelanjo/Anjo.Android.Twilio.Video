@@ -13,7 +13,7 @@ https://www.twilio.com/docs/video
 
 Twilio Video Quickstart for Android : https://github.com/twilio/video-quickstart-android
 
-Star on Github if this project helps you: https://github.com/mhdwaelanjo
+Star on Github if this project helps you: https://github.com/mhdwaelanjo/Anjo.Android.Twilio.Video
 
 ---------------------------------
 ### Help & Feedback:
